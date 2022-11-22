@@ -1,0 +1,15 @@
+div {
+    padding: 60px;
+    margin: 6px;
+    border: solid 5px black;
+    border-radius: 70px;
+    display: inline-block;
+    font-size: xx-small;
+    color: transparent;
+    background-image: url(img/lilie.jpg);
+    transition: background-image 2s ease-out 100ms
+}
+
+div:hover {
+    background-image: url(img/margarite2.jpg);
+}
